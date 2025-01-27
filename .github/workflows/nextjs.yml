@@ -1,114 +1,96 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>君乐民宿 - 豪华海滨别墅租赁</title>
+    <title>关于我们 - 君乐民宿</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; }
-        header { background: url('hero.jpg') no-repeat center center/cover; color: white; padding: 60px 20px; text-align: center; }
-        nav { display: flex; justify-content: center; background: rgba(0, 0, 0, 0.7); padding: 15px; position: sticky; top: 0; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; padding: 10px 15px; }
-        .container { max-width: 1200px; margin: auto; padding: 20px; }
-        .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; }
-        .image { width: 100%; border-radius: 10px; }
-        .btn { display: inline-block; padding: 10px 20px; background: #0077b6; color: white; text-decoration: none; border-radius: 5px; }
-        footer { text-align: center; padding: 15px; background: #0077b6; color: white; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 10px;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <h1>君乐民宿</h1>
-        <p>豪华海滨别墅 · 享受极致度假体验</p>
-        <a href="#booking" class="btn">立即预订</a>
+        <p>豪华海滨别墅租赁服务，享受奢华度假体验</p>
     </header>
+
     <nav>
         <a href="#about">关于我们</a>
-        <a href="#villas">别墅一览</a>
-        <a href="#experience">度假体验</a>
+        <a href="#services">我们的服务</a>
         <a href="#contact">联系我们</a>
     </nav>
+
     <div class="container">
-        <div id="about" class="section">
+        <section id="about">
             <h2>关于我们</h2>
-            <p>君乐民宿提供高端豪华的海滨别墅租赁服务，让您的假期尽享宁静与奢华。</p>
-        </div>
-        <div id="villas" class="section">
-            <h2>别墅一览</h2>
-            <img src="villa.jpg" alt="豪华别墅" class="image">
-            <p>精选不同房型的豪华别墅，配备现代化设施，让您享受舒适度假体验。</p>
-        </div>
-        <div id="experience" class="section">
-            <h2>度假体验</h2>
-            <img src="spa.jpg" alt="水疗体验" class="image">
-            <p>我们提供多种度假活动，包括水疗、海钓、私人厨师服务等，满足您的高端需求。</p>
-        </div>
-        <div id="contact" class="section">
+            <p>君乐民宿专注于提供顶级海滨别墅租赁服务，让您的假期与自然亲密接触，享受宁静与奢华。</p>
+        </section>
+
+        <section id="services">
+            <h2>我们的服务</h2>
+            <ul>
+                <li>私人海滩</li>
+                <li>豪华水疗服务</li>
+                <li>海钓体验</li>
+                <li>私人厨师定制服务</li>
+            </ul>
+        </section>
+
+        <section id="contact">
             <h2>联系我们</h2>
             <p>电话：+86 123-456-7890</p>
             <p>微信：junleresort</p>
             <p>地址：海南省临高县碧桂园金沙滩</p>
-        </div>
+        </section>
     </div>
-    <footer>
-        <p>&copy; 2025 君乐民宿. 版权所有.</p>
+
+    <footer class="footer">
+        <p>&copy; 2025 君乐民宿 版权所有</p>
     </footer>
 </body>
-</html>
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>君乐民宿 - 豪华海滨别墅租赁</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; }
-        header { background: url('hero.jpg') no-repeat center center/cover; color: white; padding: 60px 20px; text-align: center; }
-        nav { display: flex; justify-content: center; background: rgba(0, 0, 0, 0.7); padding: 15px; position: sticky; top: 0; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; padding: 10px 15px; }
-        .container { max-width: 1200px; margin: auto; padding: 20px; }
-        .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; }
-        .image { width: 100%; border-radius: 10px; }
-        .btn { display: inline-block; padding: 10px 20px; background: #0077b6; color: white; text-decoration: none; border-radius: 5px; }
-        footer { text-align: center; padding: 15px; background: #0077b6; color: white; }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>君乐民宿</h1>
-        <p>豪华海滨别墅 · 享受极致度假体验</p>
-        <a href="#booking" class="btn">立即预订</a>
-    </header>
-    <nav>
-        <a href="#about">关于我们</a>
-        <a href="#villas">别墅一览</a>
-        <a href="#experience">度假体验</a>
-        <a href="#contact">联系我们</a>
-    </nav>
-    <div class="container">
-        <div id="about" class="section">
-            <h2>关于我们</h2>
-            <p>君乐民宿提供高端豪华的海滨别墅租赁服务，让您的假期尽享宁静与奢华。</p>
-        </div>
-        <div id="villas" class="section">
-            <h2>别墅一览</h2>
-            <img src="villa.jpg" alt="豪华别墅" class="image">
-            <p>精选不同房型的豪华别墅，配备现代化设施，让您享受舒适度假体验。</p>
-        </div>
-        <div id="experience" class="section">
-            <h2>度假体验</h2>
-            <img src="spa.jpg" alt="水疗体验" class="image">
-            <p>我们提供多种度假活动，包括水疗、海钓、私人厨师服务等，满足您的高端需求。</p>
-        </div>
-        <div id="contact" class="section">
-            <h2>联系我们</h2>
-            <p>电话：+86 123-456-7890</p>
-            <p>微信：junleresort</p>
-            <p>地址：海南省临高县碧桂园金沙滩</p>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2025 君乐民宿. 版权所有.</p>
-    </footer>
-</body>
+
 </html>
